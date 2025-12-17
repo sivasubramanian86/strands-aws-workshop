@@ -1,0 +1,50 @@
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# API keys and tokens
+*_token*
+*_key*
+*_secret*
+
+# Jupyter Notebook outputs and checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb[_-]output*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data files that might contain sensitive info
+*.csv
+*.json
+*.yaml
+*.yml
+!requirements.txt
